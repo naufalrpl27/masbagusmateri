@@ -1,0 +1,66 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    
+    
+}
+
+.navbar {
+    background-color: #333;
+    width: 100%;
+    height: 100px;
+}
+
+.ulnavbar {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.linavbar {
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+.linavbar:hover {
+    background-color: white;
+    transition: 5s ease-in-out;
+    transition-delay:  .3s;
+
+}
+
+.content1 {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.kuda {
+    color: white;
+}
+
+.img-content {
+    width: 20%;
+    height: 20%;
+}
+
+.footer {
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerh1 {
+    font-size: 30px;
+}
